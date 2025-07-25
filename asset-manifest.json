@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.js": "/hmcts-slm-dashboard/static/js/main.9bdfeb71.js",
+    "main.css": "/hmcts-slm-dashboard/static/css/main.6a6e7a28.css",
+    "main.js": "/hmcts-slm-dashboard/static/js/main.73590129.js",
     "index.html": "/hmcts-slm-dashboard/index.html",
-    "main.9bdfeb71.js.map": "/hmcts-slm-dashboard/static/js/main.9bdfeb71.js.map"
+    "main.6a6e7a28.css.map": "/hmcts-slm-dashboard/static/css/main.6a6e7a28.css.map",
+    "main.73590129.js.map": "/hmcts-slm-dashboard/static/js/main.73590129.js.map"
   },
   "entrypoints": [
-    "static/js/main.9bdfeb71.js"
+    "static/css/main.6a6e7a28.css",
+    "static/js/main.73590129.js"
   ]
 }

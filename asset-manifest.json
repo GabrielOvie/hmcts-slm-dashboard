@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/hmcts-slm-dashboard/static/js/main.9bdfeb71.js",
+    "index.html": "/hmcts-slm-dashboard/index.html",
+    "main.9bdfeb71.js.map": "/hmcts-slm-dashboard/static/js/main.9bdfeb71.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.9bdfeb71.js"
+  ]
+}

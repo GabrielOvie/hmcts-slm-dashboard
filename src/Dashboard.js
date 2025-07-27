@@ -5,7 +5,7 @@ import { AlertTriangle, CheckCircle, XCircle, Clock, Users, Server, TrendingUp, 
 const Dashboard = () => {
   const [activeTab, setActiveTab] = useState('overview');
 
-  // Mock data representing HMCTS services
+  // Mock data representing  services
   const serviceData = [
     { name: 'Court Listing System', availability: 99.2, responseTime: 1.2, slaTarget: 99.5, status: 'warning', incidents: 2 },
     { name: 'Case Management', availability: 98.8, responseTime: 2.1, slaTarget: 99.0, status: 'critical', incidents: 5 },
@@ -78,8 +78,8 @@ const Dashboard = () => {
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="mb-8">
-          <h1 className="text-3xl font-bold text-gray-900">HMCTS Service Level Management Dashboard</h1>
-          <p className="text-gray-600 mt-2">Real-time monitoring and analysis of service performance across the HMCTS estate</p>
+          <h1 className="text-3xl font-bold text-gray-900"> SLM360 Service Level Management Dashboard</h1>
+          <p className="text-gray-600 mt-2">Real-time monitoring and analysis of service performance across the estate</p>
         </div>
 
         {/* Key Metrics Summary */}
@@ -357,8 +357,8 @@ const Dashboard = () => {
 
         {/* Footer */}
         <div className="mt-8 text-center text-gray-500 text-sm">
-          <p>HMCTS Service Level Management Dashboard | Last Updated: {new Date().toLocaleString()}</p>
-          <p className="mt-1">Demonstrating proactive SLM capabilities for HMCTS Service Level Analyst role</p>
+          <p>SLM360  Service Level Management Dashboard | Last Updated: {new Date().toLocaleString()}</p>
+          <p className="mt-1">Demonstrating proactive SLM capabilities for SLM360 Service Level Analyst role</p>
         </div>
       </div>
     </div>
